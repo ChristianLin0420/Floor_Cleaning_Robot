@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA15EE6E237B8FCD005B00FA /* createGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA15EE6C237B8FCC005B00FA /* createGraph.cpp */; };
 		AA214DC7236EC20C0064AFA1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA214DC6236EC20C0064AFA1 /* main.cpp */; };
+		AA214DD0236EC8300064AFA1 /* BoardInitial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA214DCE236EC8300064AFA1 /* BoardInitial.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AA15EE6C237B8FCC005B00FA /* createGraph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = createGraph.cpp; sourceTree = "<group>"; };
+		AA15EE6D237B8FCD005B00FA /* createGraph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = createGraph.hpp; sourceTree = "<group>"; };
 		AA214DC3236EC20C0064AFA1 /* Floor_Cleaning_Robot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Floor_Cleaning_Robot; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA214DC6236EC20C0064AFA1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AA214DCD236EC40D0064AFA1 /* Floor.data */ = {isa = PBXFileReference; lastKnownFileType = text; path = Floor.data; sourceTree = "<group>"; };
+		AA214DCE236EC8300064AFA1 /* BoardInitial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BoardInitial.cpp; sourceTree = "<group>"; };
+		AA214DCF236EC8300064AFA1 /* BoardInitial.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BoardInitial.hpp; sourceTree = "<group>"; };
+		AA767FCB2387CE15004C51FA /* floor.output */ = {isa = PBXFileReference; lastKnownFileType = text; path = floor.output; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,12 @@
 			isa = PBXGroup;
 			children = (
 				AA214DC6236EC20C0064AFA1 /* main.cpp */,
+				AA214DCE236EC8300064AFA1 /* BoardInitial.cpp */,
+				AA214DCF236EC8300064AFA1 /* BoardInitial.hpp */,
+				AA15EE6C237B8FCC005B00FA /* createGraph.cpp */,
+				AA15EE6D237B8FCD005B00FA /* createGraph.hpp */,
+				AA214DCD236EC40D0064AFA1 /* Floor.data */,
+				AA767FCB2387CE15004C51FA /* floor.output */,
 			);
 			path = Floor_Cleaning_Robot;
 			sourceTree = "<group>";
@@ -119,7 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA15EE6E237B8FCD005B00FA /* createGraph.cpp in Sources */,
 				AA214DC7236EC20C0064AFA1 /* main.cpp in Sources */,
+				AA214DD0236EC8300064AFA1 /* BoardInitial.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
